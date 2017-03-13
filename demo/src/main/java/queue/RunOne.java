@@ -2,7 +2,7 @@ package queue;
 
 /**
  * @ClassName: RunOne
- * @Description:
+ * @Description: 插入队列，输出队列大小
  * @author ZXY
  * @date 2016/8/2 17:01
  */

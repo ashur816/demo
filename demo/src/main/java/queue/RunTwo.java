@@ -2,7 +2,7 @@ package queue;
 
 /**
  * @ClassName: RunOne
- * @Description:
+ * @Description: 从队列中取出数据
  * @author ZXY
  * @date 2016/8/2 17:01
  */
