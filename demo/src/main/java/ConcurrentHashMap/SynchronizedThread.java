@@ -20,7 +20,7 @@ public class SynchronizedThread extends Thread {
         for (;;){
             int index = (int)(count % ConMap.KEYS.length);
             synchronized (SynchronizedThread.class){
-                map.get(ConMap.KEYS[index]);
+                System.out.println(map.get(ConMap.KEYS[index]));
             }
             ++ count;
         }

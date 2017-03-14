@@ -2,11 +2,10 @@ package queue;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @ClassName: QueueUtils
- * @Description: 常见队列
+ * @Description: 阻塞队列
  * @author ZXY
  * @date 2016/8/2 16:44
  */
@@ -22,19 +21,62 @@ public class QueuePool {
         return initHold.instance;
     }
 
-    public boolean addOne(String s) {
-        return blockingQueue.offer(s);
-    }
-
-    public String getOne() throws Exception {
-        return blockingQueue.poll();
-    }
-
-    public String getOne(long timeLen, TimeUnit timeUnit) throws Exception {
-        return blockingQueue.poll(timeLen, timeUnit);
-    }
-
     public BlockingQueue<String> getBlockingQueue(){
         return blockingQueue;
     }
+
+    /**
+     * @param
+     * @return
+     * @throws
+     * @Description: 添加一个元素并返回true，如果队列已满，则返回false
+     */
+    public boolean offerOne(String s) {
+        return blockingQueue.offer(s);
+    }
+
+    /**
+     * @param
+     * @return
+     * @throws
+     * @Description: 移除并返问队列头部的元素，如果队列为空，则返回null
+     */
+    public String pollOne() throws Exception {
+        //移除并返问队列头部的元素
+        return blockingQueue.poll();
+    }
+
+    /**
+     * @param
+     * @return
+     * @throws
+     * @Description: 返回队列头部的元素，如果队列为空，则返回null
+     */
+    public String peekOne() throws Exception {
+        //返回队列头部的元素
+        return blockingQueue.peek();
+    }
+
+    /**
+     * @param
+     * @return
+     * @throws
+     * @Description: 添加一个元素，如果队列满，则阻塞
+     */
+    public void putOne(String s) throws Exception {
+        //返回队列头部的元素
+        blockingQueue.put(s);
+    }
+
+    /**
+     * @param
+     * @return
+     * @throws
+     * @Description: 移除并返回队列头部的元素，如果队列为空，则阻塞
+     */
+    public String takeOne() throws Exception {
+        //返回队列头部的元素
+        return blockingQueue.take();
+    }
+
 }

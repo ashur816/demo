@@ -10,7 +10,7 @@ public class QueueTestOne {
     public static void main(String[] args) {
         RunOne runOne = new RunOne();
         RunTwo runTwo = new RunTwo();
-        runOne.run();
-        runTwo.run();
+        new Thread(runOne).start();
+        new Thread(runTwo).start();
     }
 }

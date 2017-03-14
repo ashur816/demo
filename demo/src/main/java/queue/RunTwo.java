@@ -1,9 +1,9 @@
 package queue;
 
 /**
+ * @author ZXY
  * @ClassName: RunOne
  * @Description: 从队列中取出数据
- * @author ZXY
  * @date 2016/8/2 17:01
  */
 public class RunTwo implements Runnable {
@@ -13,7 +13,7 @@ public class RunTwo implements Runnable {
         QueuePool queuePool = QueuePool.getInstance();
         try {
             while (true) {
-                System.out.println(queuePool.getOne());
+                System.out.println("列头值：" + queuePool.takeOne());
                 Thread.sleep(1000L);
             }
         } catch (Exception e) {

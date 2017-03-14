@@ -12,11 +12,11 @@ public class RunOne implements Runnable {
         QueuePool queuePool = QueuePool.getInstance();
         int count = 0;
         while (count < 10) {
-            queuePool.addOne(String.valueOf(Math.random()));
+            queuePool.offerOne(String.valueOf(Math.random()));
             try {
                 Thread.sleep(1000L);
                 count++;
-                System.out.println(queuePool.getBlockingQueue().size());
+                System.out.println("队列大小：" + queuePool.getBlockingQueue().size());
             } catch (Exception e) {
                 e.printStackTrace();
             }
