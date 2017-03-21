@@ -29,6 +29,6 @@ public class HashMapDeadLock {
             }
         }, "aaa");
         thread.start();
-        thread.join();
+//        thread.join();
     }
 }

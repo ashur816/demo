@@ -19,7 +19,7 @@ import java.io.OutputStream;
 /**
  * Created by Martin on 2015/11/21.
  */
-public class qBaoGrab {
+public class QBGrab1 {
     private static String mrb = "1000000";
     private static String mre = "10000000";
 
@@ -42,8 +42,8 @@ public class qBaoGrab {
     private static String AVERAGE_REVENUE_BQ = "average_revenue_bq";
 
     public static void main(String[] args) throws Exception {
-        qBaoGrab gab = new qBaoGrab();
-        OutputStream stream = new FileOutputStream("C:\\Users\\ZXY\\Desktop\\钱宝收益.xls");
+        QBGrab1 gab = new QBGrab1();
+        OutputStream stream = new FileOutputStream("C:\\Users\\Administrator\\Desktop\\钱宝收益.xls");
         gab.writeToExcel(stream);
     }
 

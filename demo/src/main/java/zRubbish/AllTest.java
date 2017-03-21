@@ -1,8 +1,5 @@
 package zRubbish;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @ClassName: AllTest
  * @Description: TODO(这里用一句话描述这个类的作用)
@@ -12,9 +9,9 @@ import java.util.Map;
 public class AllTest {
 
     public static void main(String[] args) {
-        Map map = new HashMap();
-        map.put(null,1);
-        map.put(null,5);
-        System.out.println(map.hashCode());
+        Integer a = null;
+        if("3".equals(a)){
+
+        }
     }
 }
