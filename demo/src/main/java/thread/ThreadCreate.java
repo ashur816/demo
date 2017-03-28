@@ -3,7 +3,7 @@ package thread;
 /**
  * Created by Martin on 2015/11/24.
  */
-public class ThreadCreate {
+class ThreadCreate {
 
     public static void main(String[] args) throws Exception {
         Thread t1 = new Thread1();

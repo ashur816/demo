@@ -27,7 +27,7 @@ public class ReentrantLockDemo {
                                 curThread.sleep(1000L);
                                 if (count == 5) {
                                     curThread.interrupt();
-                                    System.out.println(curThread + "终端指令");
+                                    System.out.println(curThread + "中断指令");
                                 }
                             }
                         }
