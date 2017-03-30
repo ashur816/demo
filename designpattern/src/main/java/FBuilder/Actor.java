@@ -6,7 +6,7 @@ package FBuilder;
  * @Description:
  * @date 2017/3/29 10:37
  */
-public class Actor {
+class Actor {
     private  String type; //角色类型
     private  String sex; //性别
     private  String face; //脸型

@@ -6,7 +6,7 @@ package FBuilder;
  * @Description:
  * @date 2017/3/29 10:37
  */
-public abstract class ActorBuilder {
+abstract class ActorBuilder {
 
     protected Actor actor = new Actor();
 

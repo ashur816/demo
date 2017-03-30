@@ -6,7 +6,7 @@ package FBuilder;
  * @Description:
  * @date 2017/3/29 10:36
  */
-public class ActorController {
+class ActorController {
 
     //逐步构建复杂产品对象
     public Actor construct(ActorBuilder ab) {

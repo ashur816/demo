@@ -6,7 +6,7 @@ package GAdapter;
  * @Description:
  * @date 2017/3/29 13:29
  */
-public class OperateAdapter implements Operate {
+class OperateAdapter implements Operate {
     private CalOne calOne;
 
     public OperateAdapter(){

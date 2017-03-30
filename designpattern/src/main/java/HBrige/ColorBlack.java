@@ -6,7 +6,7 @@ package HBrige;
  * @Description:
  * @date 2017/3/28 15:28
  */
-public class ColorBlack implements Color{
+class ColorBlack implements Color{
 
 
     @Override

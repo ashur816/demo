@@ -6,7 +6,7 @@ package EPrototype;
  * @author ZXY
  * @date 2016/6/14 14:24
  */
-public class Product implements Cloneable {
+class Product implements Cloneable {
 
     private String attr;
 

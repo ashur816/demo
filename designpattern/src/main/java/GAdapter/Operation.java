@@ -6,7 +6,7 @@ package GAdapter;
  * @Description:
  * @date 2017/3/29 13:51
  */
-public class Operation {
+class Operation {
 
     public static void main(String[] args) {
         OperateAdapter operateAdapter = new OperateAdapter();

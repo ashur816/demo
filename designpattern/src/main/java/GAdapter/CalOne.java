@@ -6,7 +6,7 @@ package GAdapter;
  * @Description:
  * @date 2017/3/29 13:28
  */
-public class CalOne {
+class CalOne {
 
     public void doMinus() {
         System.out.println("减法");

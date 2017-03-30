@@ -6,7 +6,7 @@ package HBrige;
  * @Description:
  * @date 2017/3/28 15:22
  */
-public abstract class Pen {
+abstract class Pen {
 
     protected Color color;
 

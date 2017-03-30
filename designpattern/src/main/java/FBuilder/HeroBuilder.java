@@ -6,7 +6,7 @@ package FBuilder;
  * @Description:
  * @date 2017/3/29 10:39
  */
-public class HeroBuilder extends ActorBuilder{
+class HeroBuilder extends ActorBuilder{
     @Override
     public void buildType() {
         actor.setType("a");

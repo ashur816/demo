@@ -6,7 +6,7 @@ package HBrige;
  * @Description:
  * @date 2017/3/28 15:23
  */
-public class PaintMain {
+class PaintMain {
 
     public static void main(String[] args) {
         Pen pen = new PenOne();

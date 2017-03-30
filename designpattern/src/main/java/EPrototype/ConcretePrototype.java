@@ -6,7 +6,7 @@ package EPrototype;
  * @author ZXY
  * @date 2016/6/14 13:19
  */
-public class ConcretePrototype implements Prototype {
+class ConcretePrototype implements Prototype {
 
     private String attr;
 

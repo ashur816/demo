@@ -6,7 +6,7 @@ package GAdapter;
  * @Description:
  * @date 2017/3/29 13:27
  */
-public interface Operate {
+interface Operate {
 
     void doMinus();
 
