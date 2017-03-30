@@ -6,12 +6,9 @@ package NResponChain;
  * @Description:
  * @date 2017/3/30 15:38
  */
-class ConcreteHandlerB extends Handler {
+class ConcreteHandlerC extends Handler {
     @Override
     public void handleRequest(String request) {
-        System.out.println("bbb");
-        if ("a".equals(request)) {
-            successor.handleRequest(request);
-        }
+        System.out.println("ccc");
     }
 }
