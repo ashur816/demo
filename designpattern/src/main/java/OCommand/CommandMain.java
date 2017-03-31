@@ -15,7 +15,7 @@ public class CommandMain {
         Invoker invoker1 = new Invoker(commandA);
         invoker1.call();
 
-        Invoker invoker2 = new Invoker(commandB);
-        invoker2.call();
+        invoker1.setCommand(commandB);
+        invoker1.call();
     }
 }
