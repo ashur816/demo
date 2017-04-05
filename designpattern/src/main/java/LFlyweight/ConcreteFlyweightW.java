@@ -6,7 +6,7 @@ package LFlyweight;
  * @Description:
  * @date 2017/3/30 13:48
  */
-public class ConcreteFlyweightW extends Flyweight {
+class ConcreteFlyweightW extends Flyweight {
 
     @Override
     public String getColor() {

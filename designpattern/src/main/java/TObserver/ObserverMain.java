@@ -6,7 +6,7 @@ package TObserver;
  * @Description:
  * @date 2017/3/31 16:30
  */
-public class ObserverMain {
+class ObserverMain {
 
     public static void main(String[] args) {
 //        Observer o1 = new ConcreteObserver();
@@ -30,6 +30,6 @@ public class ObserverMain {
 
         String s = o1.underAttack("受到攻击");
         //排除自己
-        observable.notifyObservers(o1,s);
+        observable.notifyObservers(o1, s);
     }
 }

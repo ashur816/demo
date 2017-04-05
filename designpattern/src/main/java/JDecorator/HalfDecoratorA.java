@@ -6,7 +6,7 @@ package JDecorator;
  * @Description:
  * @date 2017/3/30 11:33
  */
-public class HalfDecoratorA extends HalfDecorator {
+class HalfDecoratorA extends HalfDecorator {
 
     public HalfDecoratorA(Component component) {
         super(component);

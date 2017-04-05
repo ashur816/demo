@@ -9,7 +9,7 @@ import java.util.List;
  * @Description:
  * @date 2017/3/31 10:48
  */
-public class IteratorMain {
+class IteratorMain {
 
     public static void main(String[] args) {
         List products = new ArrayList();

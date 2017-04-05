@@ -6,7 +6,7 @@ package OCommand;
  * @Description:
  * @date 2017/3/30 16:51
  */
-public class CommandMain {
+class CommandMain {
 
     public static void main(String[] args) {
         Command commandA = new ConcreteCommandB();

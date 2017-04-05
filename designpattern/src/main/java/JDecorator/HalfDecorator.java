@@ -6,7 +6,7 @@ package JDecorator;
  * @Description:
  * @date 2017/3/30 11:32
  */
-public class HalfDecorator {
+class HalfDecorator {
 
     private Component component;  //维持一个对抽象构件对象的引用
 

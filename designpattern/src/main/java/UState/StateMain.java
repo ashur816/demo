@@ -6,7 +6,7 @@ package UState;
  * @Description:
  * @date 2017/4/1 15:33
  */
-public class StateMain {
+class StateMain {
 
     public static void main(String[] args) throws Exception {
         Account acc = new Account("段誉", 0.0);

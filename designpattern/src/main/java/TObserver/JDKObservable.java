@@ -9,7 +9,7 @@ import java.util.Observer;
  * @Description: 具体目标
  * @date 2017/4/1 14:17
  */
-public class JDKObservable extends Observable {
+class JDKObservable extends Observable {
 
     @Override
     public void notifyObservers() {

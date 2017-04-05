@@ -6,7 +6,7 @@ package JDecorator;
  * @Description:
  * @date 2017/3/30 10:58
  */
-public class DecoratorMain {
+class DecoratorMain {
 
     public static void main(String[] args) {
         //可以多次装饰
