@@ -7,7 +7,7 @@
 public class Test {
     public static void main(String[] args) {
         int a = 88;
-        a >>= 1;
+        a >>= 1;//a除以2
         System.out.println(a);
     }
 }
